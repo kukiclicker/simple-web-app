@@ -1,7 +1,0 @@
-
-Procitati teoriju IP
--12 fajlova
-Proci kroz primere za IP klk 
-
-Uraditi Lab vezbu za domaci ROBL 
-

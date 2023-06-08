@@ -32,3 +32,5 @@ C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\obj\Debug\net6.0\linux-x64\SimpleWebApplication.genruntimeconfig.cache
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\obj\Debug\net6.0\linux-x64\ref\SimpleWebApplication.dll
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\linux-x64\aws-beanstalk-tools-defaults.json
+C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\linux-x64\AWSSDK.Core.dll
+C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\linux-x64\AWSSDK.S3.dll

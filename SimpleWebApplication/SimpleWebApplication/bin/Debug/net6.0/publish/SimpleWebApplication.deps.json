@@ -9,10 +9,30 @@
     ".NETCoreApp,Version=v6.0/linux-x64": {
       "SimpleWebApplication/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.104.30",
           "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "SimpleWebApplication.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.107.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.107.4"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.104.30": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.107.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.104.30"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -59,6 +79,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.107.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/MDpzuWhdKxP0P7/K+aDwqJyeLE6YFzwzSgH6nmSUn+jz73ydFIHAZ08V6IYCMGSjb8N/uqAk7IChJSl69IbsA==",
+      "path": "awssdk.core/3.7.107.4",
+      "hashPath": "awssdk.core.3.7.107.4.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.104.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jji+5+X1bgH6vGdOZEHDUVKdEU6CT0N5VZYaUtj+mCunDshKENHBQ2sBz8gclVc6lHunAqcYaWKATDZRsmgHvA==",
+      "path": "awssdk.s3/3.7.104.30",
+      "hashPath": "awssdk.s3.3.7.104.30.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

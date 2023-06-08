@@ -6,4 +6,6 @@ C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\publish\SimpleWebApplication.deps.json
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\publish\SimpleWebApplication.runtimeconfig.json
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\publish\SimpleWebApplication.pdb
+C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\publish\AWSSDK.Core.dll
+C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\publish\AWSSDK.S3.dll
 C:\Users\umitr\Desktop\simple-web-app\SimpleWebApplication\SimpleWebApplication\bin\Debug\net6.0\publish\System.Data.SqlClient.dll

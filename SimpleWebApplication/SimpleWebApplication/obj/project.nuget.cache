@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1L5xAWfBRZTDBhrxRRFFKv4wohreFjD+Ja2WnMBeOu7/08v8phStSl0k538YjPN1OkHCC8RJIisANB/ktLnruA==",
+  "dgSpecHash": "eyv7wjyAmEldVqFj8qZNK465nLmqBZYc9gEIk94/yIXV96zbzi9Okd3z3F8rELKrSIIwgaQiFEHSSPYbQDqi+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\umitr\\Desktop\\simple-web-app\\SimpleWebApplication\\SimpleWebApplication\\SimpleWebApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\umitr\\.nuget\\packages\\awssdk.core\\3.7.107.4\\awssdk.core.3.7.107.4.nupkg.sha512",
+    "C:\\Users\\umitr\\.nuget\\packages\\awssdk.s3\\3.7.104.30\\awssdk.s3.3.7.104.30.nupkg.sha512",
     "C:\\Users\\umitr\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\umitr\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\umitr\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

@@ -1,0 +1,13 @@
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\SimpleWebApplication.exe
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\appsettings.Development.json
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\appsettings.json
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\SimpleWebApplication.dll
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\SimpleWebApplication.deps.json
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\SimpleWebApplication.runtimeconfig.json
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\SimpleWebApplication.pdb
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\System.Data.SqlClient.dll
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\runtimes\win-arm64\native\sni.dll
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\runtimes\win-x64\native\sni.dll
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\runtimes\win-x86\native\sni.dll
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\umitr\AppData\Local\Temp\59c2768e-4f1d-4868-be2e-78fc34619271\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

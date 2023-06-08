@@ -11,7 +11,7 @@ namespace SimpleWebApplication.Pages.Clients
         {
             try
             {
-                string connString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ClientDatabase;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+                string connString = "Data Source=clients-db.cdrwukyirog3.us-east-1.rds.amazonaws.com,1433;Initial Catalog=Clients;User ID=admin;Password=vegaspro2";
                 using(SqlConnection connection = new SqlConnection(connString))
                 {
                     connection.Open();

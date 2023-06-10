@@ -22,6 +22,7 @@ namespace SimpleWebApplication.Pages.Clients
                     string sql = "SELECT * FROM Clients WHERE id=@id";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
+                        command.Parameters.AddWithValue("@id", id);
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
@@ -57,7 +58,7 @@ namespace SimpleWebApplication.Pages.Clients
                 errorMessage = "All fields are required!";
                 return;
             }
-            
+
             try
             {
                 string connectionString = "Data Source=clients-db.cdrwukyirog3.us-east-1.rds.amazonaws.com,1433;Initial Catalog=Clients;Persist Security Info=True;User ID=admin;Password=vegaspro2";
@@ -90,3 +91,4 @@ namespace SimpleWebApplication.Pages.Clients
         }
     }
 }
+

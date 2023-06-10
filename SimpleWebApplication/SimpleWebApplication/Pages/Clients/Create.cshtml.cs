@@ -41,8 +41,8 @@ namespace SimpleWebApplication.Pages.Clients
             
             try
             {
-                string connectionString = "Data Source=clients-db.cdrwukyirog3.us-east-1.rds.amazonaws.com,1433;Initial Catalog=Clients;User ID=admin;Password=vegaspro2";
-                using(SqlConnection connection = new SqlConnection(connectionString))
+                string connectionString ="Data Source=clients-db.cdrwukyirog3.us-east-1.rds.amazonaws.com,1433;Initial Catalog=Clients;Persist Security Info=True;User ID=admin;Password=vegaspro2";
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
                     string sql = "INSERT INTO CLIENTS(name,email,phone,address)" +

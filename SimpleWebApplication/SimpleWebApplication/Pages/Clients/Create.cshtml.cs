@@ -1,7 +1,11 @@
+using Amazon.S3.Transfer;
+using Amazon.S3;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
 using System.Globalization;
+using Amazon;
+using System.Text.RegularExpressions;
 
 namespace SimpleWebApplication.Pages.Clients
 {
@@ -10,11 +14,14 @@ namespace SimpleWebApplication.Pages.Clients
         public Client c = new Client();
         public string errorMessage = "";
         public string successMessage = "";
+        public Regex validateEmailRegex = new Regex("^\\S+@\\S+\\.\\S+$");
         public void OnGet()
         {
         }
+        
         public void OnPost()
         {
+            
             c.name = Request.Form["name"];
             c.email = Request.Form["email"];
             c.phone = Request.Form["phone"];
@@ -26,6 +33,12 @@ namespace SimpleWebApplication.Pages.Clients
                 errorMessage = "All fields are required!";
                 return;
             }
+            if (!validateEmailRegex.IsMatch(c.email))
+            {
+                errorMessage = "Incorrect mail address!";
+                return;
+            }
+            
             try
             {
                 string connectionString = "Data Source=clients-db.cdrwukyirog3.us-east-1.rds.amazonaws.com,1433;Initial Catalog=Clients;User ID=admin;Password=vegaspro2";

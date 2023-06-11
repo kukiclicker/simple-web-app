@@ -38,6 +38,8 @@ body {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4);
     width:100%;
+    border-radius:25px;
+    padding:20px;
 
 }
 .add-new-client {
@@ -81,6 +83,7 @@ body {
     .nav-item:hover {
         background-color: rgb(0,0,0); 
         background-color: rgba(0,0,0, 0.6);
+        border-radius:215px;
     }
 
 /* MDI Specific CSS https://materialdesignicons.com/bootstrap*/
